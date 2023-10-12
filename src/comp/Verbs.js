@@ -1,0 +1,92 @@
+import React from 'react'
+
+export default function Verbs() {
+  return (
+    <div>
+      <h2>Regular Verbs</h2>
+      <div style={{ overflow: 'auto' }}>
+        <table className='ui very compact celled blue unstackable table'>
+          <thead>
+            <tr>
+              <th>V1</th>
+              <th>V2</th>
+              <th>V3</th>
+              <th>V4</th>
+            </tr>
+          </thead>
+          <tr><td>accept</td><td>accepted</td><td>accepted</td><td>accepting</td></tr>
+          <tr><td>add</td><td>added</td><td>added</td><td>adding</td></tr>
+          <tr><td>admire</td><td>admired</td><td>admired</td><td>admiring</td></tr>
+          <tr><td>admit</td><td>admited</td><td>admited</td><td>admiting</td></tr>
+          <tr><td>advise</td><td>advised</td><td>advised</td><td>advising</td></tr>
+          <tr><td>afford</td><td>afforded</td><td>afforded</td><td>affording</td></tr>
+          <tr><td>agree</td><td>agreed</td><td>agreed</td><td>agreing</td></tr>
+          <tr><td>alert</td><td>alerted</td><td>alerted</td><td>alerting</td></tr>
+          <tr><td>allow</td><td>allowed</td><td>allowed</td><td>allowing</td></tr>
+          <tr><td>amuse</td><td>amused</td><td>amused</td><td>amusing</td></tr>
+          <tr><td>analyse</td><td>analysed</td><td>analysed</td><td>analysing</td></tr>
+          <tr><td>analyze</td><td>analyzed</td><td>analyzed</td><td>analyzing</td></tr>
+          <tr><td>announce</td><td>announced</td><td>announced</td><td>announcing</td></tr>
+          <tr><td>annoy</td><td>annoyed</td><td>annoyed</td><td>annoying</td></tr>
+          <tr><td>answer</td><td>answered</td><td>answered</td><td>answering</td></tr>
+          <tr><td>apologise</td><td>apologised</td><td>apologised</td><td>apologising</td></tr>
+          <tr><td>appear</td><td>appeared</td><td>appeared</td><td>appearing</td></tr>
+          <tr><td>applaud</td><td>applauded</td><td>applauded</td><td>applauding</td></tr>
+          <tr><td>appreciate</td><td>appreciated</td><td>appreciated</td><td>appreciating</td></tr>
+          <tr><td>approve</td><td>approved</td><td>approved</td><td>approving</td></tr>
+          <tr><td>argue</td><td>argued</td><td>argued</td><td>arguing</td></tr>
+          <tr><td>arrange</td><td>arranged</td><td>arranged</td><td>arranging</td></tr>
+          <tr><td>arrest</td><td>arrested</td><td>arrested</td><td>arresting</td></tr>
+          <tr><td>arrive</td><td>arrived</td><td>arrived</td><td>arriving</td></tr>
+          <tr><td>ask</td><td>asked</td><td>asked</td><td>asking</td></tr>
+          <tr><td>attach</td><td>attached</td><td>attached</td><td>attaching</td></tr>
+          <tr><td>attack</td><td>attacked</td><td>attacked</td><td>attacking</td></tr>
+          <tr><td>attempt</td><td>attempted</td><td>attempted</td><td>attempting</td></tr>
+          <tr><td>attend</td><td>attended</td><td>attended</td><td>attending</td></tr>
+          <tr><td>attract</td><td>attracted</td><td>attracted</td><td>attracting</td></tr>
+          <tr><td>avoid</td><td>avoided</td><td>avoided</td><td>avoiding</td></tr>
+          <tr><td>back</td><td>backed</td><td>backed</td><td>backing</td></tr>
+          <tr><td>bake</td><td>baked</td><td>baked</td><td>baking</td></tr>
+          <tr><td>balance</td><td>balanced</td><td>balanced</td><td>balancing</td></tr>
+          <tr><td>ban</td><td>baned</td><td>baned</td><td>baning</td></tr>
+          <tr><td>bang</td><td>banged</td><td>banged</td><td>banging</td></tr>
+          <tr><td>bare</td><td>bared</td><td>bared</td><td>baring</td></tr>
+          <tr><td>bat</td><td>bated</td><td>bated</td><td>bating</td></tr>
+          <tr><td>bathe</td><td>bathed</td><td>bathed</td><td>bathing</td></tr>
+          <tr><td>battle</td><td>battled</td><td>battled</td><td>battling</td></tr>
+          <tr><td>beam</td><td>beamed</td><td>beamed</td><td>beaming</td></tr>
+          <tr><td>beg</td><td>beged</td><td>beged</td><td>beging</td></tr>
+          <tr><td>behave</td><td>behaved</td><td>behaved</td><td>behaving</td></tr>
+          <tr><td>belong</td><td>belonged</td><td>belonged</td><td>belonging</td></tr>
+          <tr><td>bleach</td><td>bleached</td><td>bleached</td><td>bleaching</td></tr>
+          <tr><td>bless</td><td>blessed</td><td>blessed</td><td>blessing</td></tr>
+          <tr><td>blind</td><td>blinded</td><td>blinded</td><td>blinding</td></tr>
+          <tr><td>blink</td><td>blinked</td><td>blinked</td><td>blinking</td></tr>
+          <tr><td>blot</td><td>bloted</td><td>bloted</td><td>bloting</td></tr>
+          <tr><td>blush</td><td>blushed</td><td>blushed</td><td>blushing</td></tr>
+          <tr><td>boast</td><td>boasted</td><td>boasted</td><td>boasting</td></tr>
+          <tr><td>boil</td><td>boiled</td><td>boiled</td><td>boiling</td></tr>
+          <tr><td>bolt</td><td>bolted</td><td>bolted</td><td>bolting</td></tr>
+          <tr><td>bomb</td><td>bombed</td><td>bombed</td><td>bombing</td></tr>
+          <tr><td>book</td><td>booked</td><td>booked</td><td>booking</td></tr>
+          <tr><td>bore</td><td>bored</td><td>bored</td><td>boring</td></tr>
+          <tr><td>borrow</td><td>borrowed</td><td>borrowed</td><td>borrowing</td></tr>
+          <tr><td>bounce</td><td>bounced</td><td>bounced</td><td>bouncing</td></tr>
+          <tr><td>bow</td><td>bowed</td><td>bowed</td><td>bowing</td></tr>
+          <tr><td>box</td><td>boxed</td><td>boxed</td><td>boxing</td></tr>
+          <tr><td>brake</td><td>braked</td><td>braked</td><td>braking</td></tr>
+          <tr><td>branch</td><td>branched</td><td>branched</td><td>branching</td></tr>
+          <tr><td>breathe</td><td>breathed</td><td>breathed</td><td>breathing</td></tr>
+          <tr><td>bruise</td><td>bruised</td><td>bruised</td><td>bruising</td></tr>
+          <tr><td>brush</td><td>brushed</td><td>brushed</td><td>brushing</td></tr>
+          <tr><td>bubble</td><td>bubbled</td><td>bubbled</td><td>bubbling</td></tr>
+          <tr><td>bump</td><td>bumped</td><td>bumped</td><td>bumping</td></tr>
+          <tr><td>burn</td><td>burned</td><td>burned</td><td>burning</td></tr>
+          <tr><td>bury</td><td>buryed</td><td>buryed</td><td>burying</td></tr>
+          <tr><td>buzz</td><td>buzzed</td><td>buzzed</td><td>buzzing</td></tr>
+
+        </table>
+      </div>
+    </div>
+  )
+}
