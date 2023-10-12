@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+
+#home-table td:nth-child(3),
+#opp-table td {
+  font-family: 'Noto Nastaliq Urdu';
+  direction: rtl;
+  text-align: right !important;
+  /* font-size: 17px; */
+}
+
+#opp-table div {
+  height: 20px;
+}
+
+td {
+  /* font-size: large; */
+}
