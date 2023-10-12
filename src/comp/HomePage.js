@@ -7,24 +7,25 @@ import { Link } from 'react-router-dom'
 export default function HomePage() {
   return (
     <div>
-
-
-      <Menu icon='labeled' widths={3} color='teal' inverted>
-        <Menu.Item as={Link} to="/persons">
+      <Menu icon='labeled' widths={4} color='teal' inverted>
+        <Menu.Item as={Link} to="/language-box/persons">
           <Icon name='users' /> Persons
         </Menu.Item>
-        <Menu.Item as={Link} to="/tenses">
+        <Menu.Item as={Link} to="/language-box/tenses">
           <Icon name='time' /> Tenses
         </Menu.Item>
-        <Menu.Item as={Link} to="/opposites">
+        <Menu.Item as={Link} to="/language-box/opposites">
           <Icon name='close' /> Opposite<br />words
+        </Menu.Item>
+        <Menu.Item as={Link} to="/language-box/parts-of-speech">
+          <Icon name='talk' /> Parts of<br />speech
         </Menu.Item>
       </Menu>
       <Menu icon='labeled' widths={2} fluid color='green' inverted>
-        <Menu.Item as={Link} to="/verbs">
+        <Menu.Item as={Link} to="/language-box/verbs">
           <Icon name='clock outline' /> Regular Verbs
         </Menu.Item>
-        <Menu.Item as={Link} to="/irregular-verbs">
+        <Menu.Item as={Link} to="/language-box/irregular-verbs">
           <Icon name='clock' /> Irregular Verbs
         </Menu.Item>
       </Menu>

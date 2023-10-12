@@ -7,13 +7,15 @@ import Opposites from './Opposites'
 import Verbs from './Verbs'
 import Persons from './Persons'
 import IrregularVerbs from './IrregularVerbs'
+import PartsOfSpeech from './PartsOfSpeech'
 export default function MainMenu() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="" element={<MenuItems />}>
+          <Route path="/language-box" element={<MenuItems />}>
             <Route index element={<HomePage />} />
+            <Route path="parts-of-speech" element={<PartsOfSpeech />} />
             <Route path="persons" element={<Persons />} />
             <Route path="tenses" element={<Tenses />} />
             <Route path="opposites" element={<Opposites />} />
@@ -37,7 +39,7 @@ function MenuItems() {
           active={item === 'home'}
           onClick={() => { setitem('home') }}
           as={Link}
-          to="/"
+          to="/language-box"
         >
           <Icon name='home' /> Home
         </Menu.Item>
@@ -55,6 +57,7 @@ function MenuItems() {
       <Container>
         <Outlet />
       </Container >
+      <br />
     </>
   )
 }
