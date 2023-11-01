@@ -39,12 +39,21 @@ export default function Opposites() {
           </td>
         </tr>
         <tr>
-          <td>Awake</td>
-          <td>Asleep</td>
+          <td>Awake
+            <div>جگنا</div>
+          </td>
+          <td>Asleep
+            <div>سونا</div>
+          </td>
         </tr>
         <tr>
-          <td>Bad</td>
-          <td>Good</td>
+          <td>Bad
+            <div>خراب</div>
+          </td>
+          <td>Good
+            <div></div>
+            اچھا
+          </td>
         </tr>
         <tr>
           <td>Beautiful</td>
